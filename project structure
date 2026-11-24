@@ -1,0 +1,14 @@
+vegetable-price-intelligence/
+├── app.py                 ← Streamlit app
+├── requirements.txt       ← libraries list
+├── README.md              ← project explanation
+├── .gitignore             ← venv, duckdb push aagaama
+├── .streamlit/config.toml ← dark theme
+├── data/raw/mandi_prices.csv
+├── sql/analysis.sql       ← 5 SQL queries
+└── src/
+    ├── load_data.py       ← CSV → DuckDB
+    ├── clean.py           ← raw → clean_prices
+    ├── profile_data.py    ← data check
+    ├── check_dates.py     ← date range check
+    └── stats.py           ← README numbers
